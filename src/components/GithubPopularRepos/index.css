@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.git-hub-repos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 90%;
+  max-width: 1100px;
+}
+.git-hub-heading {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Lobster';
+}
+@media screen and (min-width: 768px) {
+  .git-hub-heading {
+    font-size: 42px;
+  }
+}
+.language-filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-img {
+  width: 527px;
+  height: 393px;
+}
+@media screen and (min-width: 768px) {
+  .error-img {
+    width: 527px;
+    height: 393px;
+  }
+}
+.repositories-cards-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0px;
+  max-width: 1140px;
+}
